@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6875C3DF1BD8C44D00083F4D /* EMPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875C3DE1BD8C44D00083F4D /* EMPhoto.m */; settings = {ASSET_TAGS = (); }; };
+		6875C3E21BD8C64D00083F4D /* EMPhotoGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875C3E11BD8C64D00083F4D /* EMPhotoGroup.m */; settings = {ASSET_TAGS = (); }; };
+		6875C3E31BD8C9DE00083F4D /* EMSelectPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875C3DB1BD8C0F500083F4D /* EMSelectPhotos.m */; settings = {ASSET_TAGS = (); }; };
+		6875C3E61BD8CC5000083F4D /* EMShowPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875C3E51BD8CC5000083F4D /* EMShowPhotosCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		688092E91BCE50100041685B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 688092E81BCE50100041685B /* main.m */; };
+		688092EC1BCE50100041685B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 688092EB1BCE50100041685B /* AppDelegate.m */; };
+		688092EF1BCE50100041685B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 688092EE1BCE50100041685B /* ViewController.m */; };
+		688092F21BCE50100041685B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 688092F01BCE50100041685B /* Main.storyboard */; };
+		688092F41BCE50110041685B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 688092F31BCE50110041685B /* Assets.xcassets */; };
+		688092F71BCE50110041685B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 688092F51BCE50110041685B /* LaunchScreen.storyboard */; };
+		688093011BCE506B0041685B /* EMImageEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 688093001BCE506B0041685B /* EMImageEditViewController.m */; settings = {ASSET_TAGS = (); }; };
+		688093041BCE50800041685B /* EMImageCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 688093031BCE50800041685B /* EMImageCropView.m */; settings = {ASSET_TAGS = (); }; };
+		688093071BCE50A90041685B /* LyySelectImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 688093061BCE50A90041685B /* LyySelectImage.m */; settings = {ASSET_TAGS = (); }; };
+		6895AB061BD9D2B300D184B4 /* EMPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6895AB041BD9D2B300D184B4 /* EMPhotoCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		6895AB071BD9D2B300D184B4 /* EMPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6895AB051BD9D2B300D184B4 /* EMPhotoCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		6895AB0A1BD9DD2C00D184B4 /* EMListGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6895AB091BD9DD2C00D184B4 /* EMListGroupTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		6895AB0D1BD9DD3F00D184B4 /* EMListGroupTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6895AB0C1BD9DD3F00D184B4 /* EMListGroupTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6895AB0F1BD9DD5200D184B4 /* EMListGroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6895AB0E1BD9DD5200D184B4 /* EMListGroupTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		6895AB121BDA265800D184B4 /* TransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6895AB111BDA265800D184B4 /* TransitionManager.m */; settings = {ASSET_TAGS = (); }; };
+		6895AB151BDA33B000D184B4 /* EMPhotoNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6895AB141BDA33B000D184B4 /* EMPhotoNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		6895AB181BDA3F7D00D184B4 /* EMBrowPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6895AB171BDA3F7D00D184B4 /* EMBrowPhotosCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6875C3DA1BD8C0F500083F4D /* EMSelectPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EM\U0010SelectPhotos.h"; sourceTree = "<group>"; };
+		6875C3DB1BD8C0F500083F4D /* EMSelectPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EM\U0010SelectPhotos.m"; sourceTree = "<group>"; };
+		6875C3DD1BD8C44D00083F4D /* EMPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPhoto.h; sourceTree = "<group>"; };
+		6875C3DE1BD8C44D00083F4D /* EMPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMPhoto.m; sourceTree = "<group>"; };
+		6875C3E01BD8C64D00083F4D /* EMPhotoGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPhotoGroup.h; sourceTree = "<group>"; };
+		6875C3E11BD8C64D00083F4D /* EMPhotoGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMPhotoGroup.m; sourceTree = "<group>"; };
+		6875C3E41BD8CC5000083F4D /* EMShowPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMShowPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		6875C3E51BD8CC5000083F4D /* EMShowPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMShowPhotosCollectionViewController.m; sourceTree = "<group>"; };
+		688092E41BCE50100041685B /* SelectPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		688092E81BCE50100041685B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		688092EA1BCE50100041685B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		688092EB1BCE50100041685B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		688092ED1BCE50100041685B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		688092EE1BCE50100041685B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		688092F11BCE50100041685B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		688092F31BCE50110041685B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		688092F61BCE50110041685B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		688092F81BCE50110041685B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		688092FF1BCE506B0041685B /* EMImageEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMImageEditViewController.h; sourceTree = "<group>"; };
+		688093001BCE506B0041685B /* EMImageEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMImageEditViewController.m; sourceTree = "<group>"; };
+		688093021BCE50800041685B /* EMImageCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMImageCropView.h; sourceTree = "<group>"; };
+		688093031BCE50800041685B /* EMImageCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMImageCropView.m; sourceTree = "<group>"; };
+		688093051BCE50A90041685B /* LyySelectImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyySelectImage.h; sourceTree = "<group>"; };
+		688093061BCE50A90041685B /* LyySelectImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyySelectImage.m; sourceTree = "<group>"; };
+		6895AB031BD9D2B300D184B4 /* EMPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		6895AB041BD9D2B300D184B4 /* EMPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		6895AB051BD9D2B300D184B4 /* EMPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EMPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		6895AB081BD9DD2C00D184B4 /* EMListGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMListGroupTableViewCell.h; sourceTree = "<group>"; };
+		6895AB091BD9DD2C00D184B4 /* EMListGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMListGroupTableViewCell.m; sourceTree = "<group>"; };
+		6895AB0B1BD9DD3F00D184B4 /* EMListGroupTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMListGroupTableViewController.h; sourceTree = "<group>"; };
+		6895AB0C1BD9DD3F00D184B4 /* EMListGroupTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMListGroupTableViewController.m; sourceTree = "<group>"; };
+		6895AB0E1BD9DD5200D184B4 /* EMListGroupTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EMListGroupTableViewCell.xib; sourceTree = "<group>"; };
+		6895AB101BDA265800D184B4 /* TransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionManager.h; sourceTree = "<group>"; };
+		6895AB111BDA265800D184B4 /* TransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionManager.m; sourceTree = "<group>"; };
+		6895AB131BDA33B000D184B4 /* EMPhotoNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPhotoNavigationController.h; sourceTree = "<group>"; };
+		6895AB141BDA33B000D184B4 /* EMPhotoNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMPhotoNavigationController.m; sourceTree = "<group>"; };
+		6895AB161BDA3F7D00D184B4 /* EMBrowPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMBrowPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		6895AB171BDA3F7D00D184B4 /* EMBrowPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMBrowPhotosCollectionViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		688092E11BCE50100041685B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		688092DB1BCE50100041685B = {
+			isa = PBXGroup;
+			children = (
+				688092E61BCE50100041685B /* SelectPhoto */,
+				688092E51BCE50100041685B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		688092E51BCE50100041685B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				688092E41BCE50100041685B /* SelectPhoto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		688092E61BCE50100041685B /* SelectPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				688092FE1BCE505C0041685B /* EditImage */,
+				688092EA1BCE50100041685B /* AppDelegate.h */,
+				688092EB1BCE50100041685B /* AppDelegate.m */,
+				688092ED1BCE50100041685B /* ViewController.h */,
+				688092EE1BCE50100041685B /* ViewController.m */,
+				6895AB131BDA33B000D184B4 /* EMPhotoNavigationController.h */,
+				6895AB141BDA33B000D184B4 /* EMPhotoNavigationController.m */,
+				6895AB0B1BD9DD3F00D184B4 /* EMListGroupTableViewController.h */,
+				6895AB0C1BD9DD3F00D184B4 /* EMListGroupTableViewController.m */,
+				6895AB081BD9DD2C00D184B4 /* EMListGroupTableViewCell.h */,
+				6895AB091BD9DD2C00D184B4 /* EMListGroupTableViewCell.m */,
+				6895AB0E1BD9DD5200D184B4 /* EMListGroupTableViewCell.xib */,
+				6875C3E41BD8CC5000083F4D /* EMShowPhotosCollectionViewController.h */,
+				6875C3E51BD8CC5000083F4D /* EMShowPhotosCollectionViewController.m */,
+				6895AB031BD9D2B300D184B4 /* EMPhotoCollectionViewCell.h */,
+				6895AB041BD9D2B300D184B4 /* EMPhotoCollectionViewCell.m */,
+				6895AB051BD9D2B300D184B4 /* EMPhotoCollectionViewCell.xib */,
+				6895AB161BDA3F7D00D184B4 /* EMBrowPhotosCollectionViewController.h */,
+				6895AB171BDA3F7D00D184B4 /* EMBrowPhotosCollectionViewController.m */,
+				6875C3DA1BD8C0F500083F4D /* EMSelectPhotos.h */,
+				6875C3DB1BD8C0F500083F4D /* EMSelectPhotos.m */,
+				6875C3DD1BD8C44D00083F4D /* EMPhoto.h */,
+				6875C3DE1BD8C44D00083F4D /* EMPhoto.m */,
+				6875C3E01BD8C64D00083F4D /* EMPhotoGroup.h */,
+				6875C3E11BD8C64D00083F4D /* EMPhotoGroup.m */,
+				6895AB101BDA265800D184B4 /* TransitionManager.h */,
+				6895AB111BDA265800D184B4 /* TransitionManager.m */,
+				688092F01BCE50100041685B /* Main.storyboard */,
+				688092F31BCE50110041685B /* Assets.xcassets */,
+				688092F51BCE50110041685B /* LaunchScreen.storyboard */,
+				688092F81BCE50110041685B /* Info.plist */,
+				688092E71BCE50100041685B /* Supporting Files */,
+			);
+			path = SelectPhoto;
+			sourceTree = "<group>";
+		};
+		688092E71BCE50100041685B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				688092E81BCE50100041685B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		688092FE1BCE505C0041685B /* EditImage */ = {
+			isa = PBXGroup;
+			children = (
+				688092FF1BCE506B0041685B /* EMImageEditViewController.h */,
+				688093001BCE506B0041685B /* EMImageEditViewController.m */,
+				688093021BCE50800041685B /* EMImageCropView.h */,
+				688093031BCE50800041685B /* EMImageCropView.m */,
+				688093051BCE50A90041685B /* LyySelectImage.h */,
+				688093061BCE50A90041685B /* LyySelectImage.m */,
+			);
+			path = EditImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		688092E31BCE50100041685B /* SelectPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688092FB1BCE50110041685B /* Build configuration list for PBXNativeTarget "SelectPhoto" */;
+			buildPhases = (
+				688092E01BCE50100041685B /* Sources */,
+				688092E11BCE50100041685B /* Frameworks */,
+				688092E21BCE50100041685B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelectPhoto;
+			productName = SelectPhoto;
+			productReference = 688092E41BCE50100041685B /* SelectPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		688092DC1BCE50100041685B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = lyy;
+				TargetAttributes = {
+					688092E31BCE50100041685B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 688092DF1BCE50100041685B /* Build configuration list for PBXProject "SelectPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 688092DB1BCE50100041685B;
+			productRefGroup = 688092E51BCE50100041685B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				688092E31BCE50100041685B /* SelectPhoto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		688092E21BCE50100041685B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688092F71BCE50110041685B /* LaunchScreen.storyboard in Resources */,
+				6895AB0F1BD9DD5200D184B4 /* EMListGroupTableViewCell.xib in Resources */,
+				6895AB071BD9D2B300D184B4 /* EMPhotoCollectionViewCell.xib in Resources */,
+				688092F41BCE50110041685B /* Assets.xcassets in Resources */,
+				688092F21BCE50100041685B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		688092E01BCE50100041685B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6875C3DF1BD8C44D00083F4D /* EMPhoto.m in Sources */,
+				688093041BCE50800041685B /* EMImageCropView.m in Sources */,
+				6895AB061BD9D2B300D184B4 /* EMPhotoCollectionViewCell.m in Sources */,
+				6895AB0A1BD9DD2C00D184B4 /* EMListGroupTableViewCell.m in Sources */,
+				688093011BCE506B0041685B /* EMImageEditViewController.m in Sources */,
+				6895AB181BDA3F7D00D184B4 /* EMBrowPhotosCollectionViewController.m in Sources */,
+				688093071BCE50A90041685B /* LyySelectImage.m in Sources */,
+				688092EF1BCE50100041685B /* ViewController.m in Sources */,
+				688092EC1BCE50100041685B /* AppDelegate.m in Sources */,
+				6875C3E21BD8C64D00083F4D /* EMPhotoGroup.m in Sources */,
+				688092E91BCE50100041685B /* main.m in Sources */,
+				6895AB121BDA265800D184B4 /* TransitionManager.m in Sources */,
+				6875C3E61BD8CC5000083F4D /* EMShowPhotosCollectionViewController.m in Sources */,
+				6895AB0D1BD9DD3F00D184B4 /* EMListGroupTableViewController.m in Sources */,
+				6875C3E31BD8C9DE00083F4D /* EMSelectPhotos.m in Sources */,
+				6895AB151BDA33B000D184B4 /* EMPhotoNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		688092F01BCE50100041685B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				688092F11BCE50100041685B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		688092F51BCE50110041685B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				688092F61BCE50110041685B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		688092F91BCE50110041685B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		688092FA1BCE50110041685B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		688092FC1BCE50110041685B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SelectPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyy.SelectPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		688092FD1BCE50110041685B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SelectPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyy.SelectPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		688092DF1BCE50100041685B /* Build configuration list for PBXProject "SelectPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688092F91BCE50110041685B /* Debug */,
+				688092FA1BCE50110041685B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		688092FB1BCE50110041685B /* Build configuration list for PBXNativeTarget "SelectPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688092FC1BCE50110041685B /* Debug */,
+				688092FD1BCE50110041685B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 688092DC1BCE50100041685B /* Project object */;
+}
