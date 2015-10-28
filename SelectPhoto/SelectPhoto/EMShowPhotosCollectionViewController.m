@@ -13,11 +13,11 @@
 #import "EMPhotoCollectionViewCell.h"
 #import "EMBrowPhotosCollectionViewController.h"
 
-@interface EMShowPhotosCollectionViewController ()<UICollectionViewDataSource,UICollectionViewDelegate>
+@interface EMShowPhotosCollectionViewController ()<UICollectionViewDataSource,UICollectionViewDelegate,EMPhotoCollectionViewCellDelegate>
 
 //@property (nonatomic ,strong)NSArray *items;
 @property (nonatomic ,strong)UICollectionView *collectionView;
-
+@property (nonatomic ,strong)NSMutableArray *doneArray;
 
 @end
 
@@ -42,6 +42,13 @@ static NSString * const reuseIdentifier = @"Cell";
     [self collectionView];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    if (self.photos) {
+        [self.collectionView reloadData];
+    }
+}
+
 - (void)pop {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
@@ -49,9 +56,18 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)setPhotos:(NSArray *)photos {
     if (_photos != photos) {
         _photos = photos;
+        [self.doneArray removeAllObjects];
+        [self.doneArray addObjectsFromArray:_photos];
         [self.collectionView reloadData];
     }
     
+}
+
+- (NSMutableArray *)doneArray {
+    if (!_doneArray) {
+        _doneArray = [NSMutableArray array];
+    }
+    return _doneArray;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -61,15 +77,16 @@ static NSString * const reuseIdentifier = @"Cell";
 
 #pragma mark <UICollectionViewDataSource>
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return self.photos.count;
+    return self.doneArray.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     EMPhotoCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
+    cell.delegate = self;
     cell.backgroundColor = [UIColor redColor];
-    EMPhoto *photo = self.photos[indexPath.row];
+    EMPhoto *photo = self.doneArray[indexPath.row];
     
-    [cell update:photo];
+    [cell update:photo index:indexPath.row];
     
     return cell;
 }
@@ -78,10 +95,14 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     
     EMBrowPhotosCollectionViewController *browPhotoVC = [[EMBrowPhotosCollectionViewController alloc] init];
-    browPhotoVC.photos = self.photos;
+    browPhotoVC.photos = [NSArray arrayWithArray:self.doneArray];
     browPhotoVC.clickPhotoLocation = indexPath.row;
     [self.navigationController pushViewController:browPhotoVC animated:YES];
     
+}
+
+- (void)didSelectPhoto:(EMPhoto *)photo index:(NSInteger)index {
+    [self.doneArray replaceObjectAtIndex:index withObject:photo];
 }
 
 #pragma mark - Setter & Getter
